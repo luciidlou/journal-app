@@ -1,0 +1,33 @@
+{
+    "entries": [
+        {
+            "id": 1,
+            "date": "07/24/2025",
+            "concept": "HTML & CSS",
+            "entry": "We talked about HTML components and how to make grid layouts with Flexbox in CSS.",
+            "mood": "Ok"
+        },
+        {
+            "id": 2,
+            "date": "07/24/2025",
+            "concept": "Functions",
+            "entry": "We learned that functions are a component of Javascript that we use to do things with our data.",
+            "mood": "Ok"
+        },
+        {
+            "id": 3,
+            "date": "07/24/2025",
+            "concept": "Conditionals",
+            "entry": "We went over if else statements and how to use them to within functions and iterations to manipulate our data.",
+            "mood": "Ok"
+        },
+        {
+            "id": 4,
+            "date": "07/24/2025",
+            "concept": "Iterations",
+            "entry": "We discussed for of loops and how to use them to iterate through complex data structures like arrays",
+            "mood": "Ok"
+        
+        }
+    ]
+}
