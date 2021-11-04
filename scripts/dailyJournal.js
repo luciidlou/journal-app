@@ -9,14 +9,15 @@ export const dailyJournal = () => {
                     <h1>The Daily Journal</h1>
                 </div>
                 <div class="header-right">
-                    <h2>Welcome, person</h2>
+                    <h2>Welcome, guest</h2>
                 </div>
             </header>
             <article class="entryForm">
-                ${journalForm()}
+            ${journalForm()}
             </article>
-                ${moodFilter()}
+            ${moodFilter()}
             <div class="entryList">
+            <h2 class="entries-title">Journal Entries</h2>
                 ${entries()}
             </div>
             `

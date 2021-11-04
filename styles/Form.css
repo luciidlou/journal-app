@@ -1,0 +1,11 @@
+fieldset {
+    display: flex;
+    border: 0;
+}
+label {
+    margin-right: 10px;
+}
+.entryForm__main {
+    width: 450px;
+    height: 150px;
+}

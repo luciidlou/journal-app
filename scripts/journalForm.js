@@ -15,7 +15,7 @@ export const journalForm = () => {
         </fieldset>
         <fieldset>
             <label for="mainEntry">Journal Entry</label>
-            <input type="text" name="mainEntry" class="entryForm__main">
+            <textarea type="text" name="mainEntry" class="entryForm__main"></textarea>
         </fieldset>
         <fieldset>
             <label for="mood">Mood for the day</label>
@@ -42,7 +42,7 @@ document.addEventListener("click",
         if (event.target.name === "submitBtn") {
             const date = document.querySelector("input[name='date']").value
             const concept = document.querySelector("input[name='concepts']").value
-            const entry = document.querySelector("input[name='mainEntry']").value
+            const entry = document.querySelector("textarea[name='mainEntry']").value
             const mood = document.querySelector("select[name='mood']").value
 
             const newEntryObj = {

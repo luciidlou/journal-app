@@ -1,24 +1,26 @@
-* {
-    /* border: 2px solid black; */
-    margin: 0;
-    padding: 0;
+@import "./Form.css";
+@import "./Entries.css";
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Oswald&family=Titillium+Web&family=Zen+Kurenaido&display=swap');
+
+body,
+button,
+input,
+select,
+textarea {
+	color: #404040;
+	font-size: 14px;
+	line-height: 1.5;
+    font-family: 'Titillium Web', sans-serif;
 }
-header {
-    display: flex;
-    /* justify-content: space-evenly; */
+
+h1,h2,h3,h4,h5,h6 {
+  letter-spacing: 2px;
+  font-family: 'Inconsolata', monospace;
 }
-.header-left {
-    flex: 3;
-}
-.header-right {
-    flex: 1;
+h1 {
+    border-bottom: 2px solid slategrey;
 }
 .logo {
-    width: 100px;
     height: 50px;
-}
-fieldset {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
+    width: 150px;
 }

@@ -1,0 +1,7 @@
+.entries-title {
+    border-bottom: 1px solid black;
+}
+.entry__delete {
+    display: block;
+    margin: 10px 0 0 0;
+}
